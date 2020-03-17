@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: none;
+}
+
+.git_status {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.git_status__name,
+.git_status__flag {
+  padding: 0;
+  margin: 0;
+}
+
+.git_status__name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.git_status__flag {
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: rgba(120, 202, 120, 0.69);
+}
+
+.git_status__flag--err {
+  background-color: rgba(233, 94, 94, 0.69);
+}
+
+.list-group {
+  box-shadow: 0 0 10px #b9b9b9;
+}
+
+.list-group-item {
+  background-color: #fafafa;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
